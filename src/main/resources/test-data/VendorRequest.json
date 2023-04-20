@@ -1,0 +1,52 @@
+{
+  "originLocationId":null,
+  "originNodeType":"VENDOR",
+  "fulfillmentMethod": "DROP_SHIP",
+  "vendorId": "102702",
+  "sourceSystemName": "SOP",
+  "shipDate": "2030-10-28",
+  "deliveryByDate": "2030-10-31",
+  "shopKey": "LTLB2C",
+  "serviceLevel": "LTLB2C_BASIC",
+  "isTransferOrder": "TRUE",
+  "shipmentNumber": "Test_ezship_",
+  "transferOrderNumber": "12345",
+  "purchaseOrderNumber": "12345",
+  "shipmentDetails": {
+    "shipmentWeight": 0.43,
+    "shipmentLength": 20.1,
+    "shipmentWidth": 20.4,
+    "shipmentHeight": 10.6,
+    "shipmentItemDetails": [
+      {
+        "itemSeqNbr": 1,
+        "itemQty": 1,
+        "itemId": "486114",
+        "itemIdType": "UniqueItemNbr",
+        "itemWeight": 0.43,
+        "itemLength": 4.1,
+        "itemWidth": 4.4,
+        "itemHeight": 6.6,
+        "itemAttributes": [
+          {
+            "attrName": "itemType",
+            "attrValue": "Hazmat"
+          }
+        ]
+      }
+    ]
+  },
+  "destinationDetails": {
+    "destAddressResInd": "TRUE",
+    "destinationAddress": {
+      "line1Address": "123 Nowhere Lane",
+      "line2Address": "string",
+      "line3Address": "string",
+      "line4Address": "string",
+      "city": "Charlotte",
+      "state": "NC",
+      "postalCode": "28262-4321",
+      "country": "US"
+    }
+  }
+}
